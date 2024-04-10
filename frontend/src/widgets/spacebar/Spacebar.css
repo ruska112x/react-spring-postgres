@@ -1,0 +1,92 @@
+.spacebar {
+  max-width: 40.1rem;
+  width: 100%;
+  height: 108rem;
+  position: relative;
+  background-color: var(--background-main);
+}
+
+.spacebar__header {
+  background-color: var(--background-main);
+  height: 8rem;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 1.9rem;
+}
+
+.spacebar__header-title {
+  font-weight: 400;
+  font-size: 2rem;
+  color: #000;
+}
+
+.spacebar__header_functional {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.functional_element {
+  margin-left: 0.8rem;
+}
+
+.dialog {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.1rem 1.9rem;
+  border-bottom: var(--primary-light) 0.2rem solid;
+}
+
+.dialog__content {
+  width: 28.1rem;
+  height: 5.1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.dialog__content_header-username {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.dialog__content_header {
+  justify-content: space-between;
+  display: flex;
+}
+
+.dialog__content_header-last-message-time {
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+.dialog__content_main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dialog__content_main-last-message {
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+.dialog__content_main-count-of-unread-messages {
+  height: 2.5rem;
+  width: 2.5rem;
+  color: var(--background-main);
+  border-radius: 50%;
+  background-color: var(--secondary-contrast);
+  font-size: 1.6rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

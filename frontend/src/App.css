@@ -1,0 +1,12 @@
+.smth {
+  align-content: center;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}

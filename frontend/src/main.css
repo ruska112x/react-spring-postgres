@@ -1,0 +1,30 @@
+:root {
+  --background-main: #fff;
+  --primary-main: #c6d5ff;
+  --primary-light: #ecf4ff;
+  --text-secondary: #828282;
+  --text-accent: #608bff;
+  --secondary-contrast: #2a457a;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: Inter, sans-serif;
+}
+
+button {
+  border: 0;
+  background: 0;
+}
+
+img {
+  display: block;
+}
