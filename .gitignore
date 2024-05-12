@@ -33,8 +33,6 @@ build/
 ### VS Code ###
 .vscode/
 
-application.yml
-
 ## frontend
 # Logs
 logs

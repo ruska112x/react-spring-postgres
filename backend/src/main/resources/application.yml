@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: backend
+  datasource:
+    multimes:
+      driver: org.postgresql.Driver
+      jdbcUrl: jdbc:postgresql://postgres:5432/multimes_db
+      username: multimes
+      password: password
+tg:
+  bot-token: 6073235596:AAGOPcxf0gFYtydc0ZmItroPGOBw1HSX6n4
